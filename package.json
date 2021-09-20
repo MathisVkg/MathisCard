@@ -1,0 +1,33 @@
+{
+  "name": "mathisvkg",
+  "version": "1.0.0",
+  "description": "My personal NPM card",
+  "main": "index.js",
+  "bin": {
+    "mathisvkg": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathisVkg/MathisCard.git"
+  },
+  "keywords": [
+    "NPM",
+    "card"
+  ],
+  "author": "Mathis Vankoekelberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathisVkg/MathisCard/issues"
+  },
+  "homepage": "https://github.com/MathisVkg/MathisCard#readme",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "inquirer": "^8.1.5",
+    "open": "^8.2.1"
+  }
+}
